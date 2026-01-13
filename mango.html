@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Fruit - Mango</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #FF9933;
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+            border-bottom: 5px solid #138808;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .symbol-image {
+            width: 100%;
+            max-width: 600px;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin: 20px 0;
+            border: 5px solid #FF9933;
+        }
+        .info-box {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            text-align: left;
+            border-left: 5px solid #000080;
+        }
+        .back-button {
+            display: inline-block;
+            background-color: #138808;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+        .back-button:hover {
+            background-color: #0d6e05;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #138808;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>National Fruit of India</h1>
+    <p>The King of Fruits - Mango</p>
+</header>
+
+<div class="container">
+    <img src="https://static.toiimg.com/thumb/msid-120427786,width-1280,height-720,resizemode-4/120427786.jpg" 
+         alt="Mango" class="symbol-image">
+    
+    <div class="info-box">
+        <h2>Mangifera indica</h2>
+        <p><strong>Declared National Fruit:</strong> 1950</p>
+        <p><strong>Scientific Name:</strong> Mangifera indica</p>
+        <p><strong>Season:</strong> March to July</p>
+        <p><strong>Major Producing States:</strong> Uttar Pradesh, Andhra Pradesh, Karnataka</p>
+        
+        <h3>About the Mango:</h3>
+        <p>Mango, known as the "King of Fruits," has been cultivated in India for over 4,000 years. With over 100 varieties, it's deeply embedded in Indian culture, cuisine, and traditions.</p>
+        
+        <p>India is the world's largest producer of mangoes, contributing about 50% of the world's total production. Famous varieties include Alphonso, Dasheri, Langra, and Chausa.</p>
+        
+        <p>In Indian mythology, the mango tree is considered sacred and is often associated with love and fertility. Mango leaves are used in religious ceremonies and decorations during festivals.</p>
+    </div>
+    
+    <a href="{% url 'home' %}" class="back-button">← Back to National Symbols</a>
+</div>
+
+<footer>
+    <p>&copy;  2026 National Symbols | Shakti</p>
+</footer>
+
+</body>
+</html>

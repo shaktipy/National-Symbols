@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Bird - Peacock</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #FF9933;
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+            border-bottom: 5px solid #138808;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .symbol-image {
+            width: 100%;
+            max-width: 600px;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin: 20px 0;
+            border: 5px solid #FF9933;
+        }
+        .info-box {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            text-align: left;
+            border-left: 5px solid #000080;
+        }
+        .back-button {
+            display: inline-block;
+            background-color: #138808;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+        .back-button:hover {
+            background-color: #0d6e05;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #138808;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>National Bird of India</h1>
+    <p>The Indian Peacock</p>
+</header>
+
+<div class="container">
+    <img src="https://www.britannica.com/cdn/23/256823-101-11E00D74/images/image-1.jpg" 
+         alt="Indian Peacock" class="symbol-image">
+    
+    <div class="info-box">
+        <h2>Pavo cristatus</h2>
+        <p><strong>Declared National Bird:</strong> 1963</p>
+        <p><strong>Scientific Name:</strong> Pavo cristatus</p>
+        <p><strong>Habitat:</strong> Forests, cultivated lands, near human habitations</p>
+        <p><strong>Conservation Status:</strong> Least Concern</p>
+        
+        <h3>About the Indian Peacock:</h3>
+        <p>The Indian Peacock was declared the national bird of India in 1963 because of its rich religious and legendary involvement in Indian traditions.</p>
+        
+        <p>The male peacock is known for its extravagant tail feathers which it displays during courtship. In Hindu mythology, the peacock is associated with Saraswati, the goddess of wisdom and learning.</p>
+        
+        <p>It is fully protected under the Indian Wildlife Protection Act, 1972.</p>
+    </div>
+    
+   <a href="{% url 'home' %}" class="back-button">← Back to National Symbols</a>
+</div>
+
+<footer>
+    <p>&copy;  2026 National Symbols | Shakti</p>
+</footer>
+
+</body>
+</html>

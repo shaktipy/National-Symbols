@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Flower - Lotus</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #FF9933;
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+            border-bottom: 5px solid #138808;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .symbol-image {
+            width: 100%;
+            max-width: 600px;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin: 20px 0;
+            border: 5px solid #FF9933;
+        }
+        .info-box {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            text-align: left;
+            border-left: 5px solid #000080;
+        }
+        .back-button {
+            display: inline-block;
+            background-color: #138808;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+        .back-button:hover {
+            background-color: #0d6e05;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #138808;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>National Flower of India</h1>
+    <p>The Sacred Lotus</p>
+</header>
+
+<div class="container">
+    <img src="https://static.vecteezy.com/system/resources/thumbnails/050/345/179/small_2x/lotus-flower-on-water-covered-by-sunset-light-photo.jpeg" 
+         alt="Lotus Flower" class="symbol-image">
+    
+    <div class="info-box">
+        <h2>Nelumbo nucifera</h2>
+        <p><strong>Declared National Flower:</strong> 1950</p>
+        <p><strong>Scientific Name:</strong> Nelumbo nucifera</p>
+        <p><strong>Habitat:</strong> Freshwater ponds, lakes, and shallow waters</p>
+        <p><strong>Blooming Season:</strong> June to September</p>
+        
+        <h3>About the Lotus Flower:</h3>
+        <p>The Lotus holds a sacred place in Indian culture and is the national flower of India. It symbolizes purity, beauty, majesty, grace, fertility, wealth, knowledge, and enlightenment.</p>
+        
+        <p>In Indian religions, the lotus is associated with several deities. Lord Vishnu is often described as the "Lotus-Eyed One" and Goddess Lakshmi sits on a fully bloomed lotus flower.</p>
+        
+        <p>The lotus is unique as it grows in muddy water but rises above the surface to bloom with remarkable beauty, representing how one can rise above worldly attachments.</p>
+    </div>
+    
+    <a href="{% url 'home' %}" class="back-button">← Back to National Symbols</a>
+</div>
+
+<footer>
+    <p>&copy;  2026 National Symbols | Shakti</p>
+</footer>
+
+</body>
+</html>

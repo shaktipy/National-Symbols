@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Animal - Tiger</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #FF9933;
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+            border-bottom: 5px solid #138808;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .symbol-image {
+            width: 100%;
+            max-width: 600px;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin: 20px 0;
+            border: 5px solid #FF9933;
+        }
+        .info-box {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            text-align: left;
+            border-left: 5px solid #000080;
+        }
+        .back-button {
+            display: inline-block;
+            background-color: #138808;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+        .back-button:hover {
+            background-color: #0d6e05;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #138808;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>National Animal of India</h1>
+    <p>The Royal Bengal Tiger</p>
+</header>
+
+<div class="container">
+    <img src="https://a-z-animals.com/media/2021/05/iStock-1420676204-1024x680.jpg" 
+         alt="Royal Bengal Tiger" class="symbol-image">
+    
+    <div class="info-box">
+        <h2>Panthera tigris tigris</h2>
+        <p><strong>Declared National Animal:</strong> 1973</p>
+        <p><strong>Scientific Name:</strong> Panthera tigris</p>
+        <p><strong>Habitat:</strong> Forests, mangroves, grasslands</p>
+        <p><strong>Conservation Status:</strong> Endangered</p>
+        
+        <h3>About the Royal Bengal Tiger:</h3>
+        <p>The Bengal Tiger was adopted as India's national animal in 1973, replacing the lion. It symbolizes strength, agility, and grace. The tiger is at the apex of the food chain and plays a vital role in maintaining the health of the ecosystem.</p>
+        
+        <p>India is home to over 70% of the world's tiger population, with significant populations found in tiger reserves like Corbett, Bandipur, and Sundarbans.</p>
+    </div>
+    
+   <a href="{% url 'home' %}" class="back-button">← Back to National Symbols</a>
+</div>
+
+<footer>
+    <p>&copy;  2026 National Symbols | Shakti</p>
+</footer>
+
+</body>
+</html>
